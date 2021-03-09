@@ -1,0 +1,147 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url("or-bg.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.logo-container img {
+  width: 400px;
+}
+.total-amount {
+  font-size: 32px;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+
+.cc-form label {
+  font-size: 16px;
+}
+.cc-form input[type="text"],
+#expiry_month,
+#expiry_year {
+  width: 99%;
+  padding: 15px 5px;
+  margin: 5px 0 20px 0;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 1px solid #d3d3d3;
+}
+.cc-form input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 0 5px 0 0 !important;
+}
+.cc-form input[type="text"]:focus {
+  border-radius: 10px;
+  outline: 0;
+  border: 1px solid #6b52a3;
+}
+.text-white {
+  color: #ffffff;
+}
+.ezecom-color {
+  color: #6b52a3;
+}
+.color-secondary {
+  color: #808080;
+}
+.border-bottom {
+  border-bottom: 1px solid #333333;
+}
+.method-container,
+.trans-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+}
+.trans-container p {
+  font-size: 16px;
+}
+.header {
+  padding: 40px 0;
+}
+.agree-privacy {
+  margin: 10px 0 20px 0;
+}
+.agree-privacy label {
+  display: inline-flex;
+}
+.agree-privacy label input {
+  margin-right: 5px;
+}
+button {
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-submit {
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 10px 0 20px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #6b52a3;
+}
+.btn-submit:hover {
+  border-color: #6b52a3;
+  background-color: #6438ff;
+}
+.btn-cancel {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #333333;
+  width: 50px;
+  cursor: pointer;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    width 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-cancel:hover {
+  border-radius: 5px;
+  width: 100px;
+  color: #ffffff;
+  background-color: #f44336;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .logo-container img {
+    width: 200px;
+  }
+  .header {
+    padding: 0px;
+    margin-top: 20px;
+  }
+  .timeout-container {
+    padding-top: 0;
+  }
+  .timeout-container .text-right {
+    text-align: center;
+  }
+  .method-container,
+  .trans-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .reverse-column-mobile {
+    flex-direction: column-reverse;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .logo-container img {
+    width: 250px;
+  }
+  .method-container,
+  .trans-container {
+    margin-top: 20px;
+  }
+}
