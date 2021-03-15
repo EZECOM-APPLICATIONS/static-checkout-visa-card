@@ -117,13 +117,14 @@ button {
     margin: -325% 0 39% 251%;
 }
 
-.transaction-info{
+.transaction-info {
     margin-left: 50px;
 }
 
-.credit-card-properties{
+.credit-card-properties {
     margin-left: 50px;
 }
+
 .btn-submit:hover {
     border-color: #6b52a3;
     background-color: #6438ff;
@@ -186,6 +187,14 @@ button {
     .reverse-column-mobile {
         flex-direction: column-reverse;
     }
+
+    .credit-card-properties {
+        margin-left: 33px;
+    }
+
+    .group-payment {
+        display: none;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -197,5 +206,20 @@ button {
     .method-container,
     .trans-container {
         margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1200px){
+    .group-payment {
+        display: none;
+    }
+
+    .credit-card-properties{
+        margin-left: 0px;
+        max-width: 100% !important;
+    }
+
+    .trans-container{
+        padding-bottom: 85px;
     }
 }
