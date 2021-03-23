@@ -197,6 +197,43 @@ button {
     }
 }
 
+@media only screen and (max-width: 375px) {
+    h2, .total-amount{
+        font-size: 1.5rem !important;
+    }
+
+    .visa-card-logo, .rolling-shop-transaction, .paybill-total-amount{
+        width: 38px;
+    }
+
+    .credit-card-properties{
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    h2, .total-amount{
+        font-size: 1.8rem !important;
+    }
+
+    .visa-card-logo, .rolling-shop-transaction, .paybill-total-amount{
+        width: 38px;
+    }
+
+    .credit-card-properties{
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h2, .total-amount{
+        font-size: 1.4rem !important;
+    }
+    .visa-card-logo, .rolling-shop-transaction, .paybill-total-amount{
+        width: 41px;
+    }
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .logo-container img {
